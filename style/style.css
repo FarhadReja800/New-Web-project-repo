@@ -1,6 +1,8 @@
-body{
+*{
     padding: 0px;
     margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -16,6 +18,7 @@ body{
     padding-right: 8%;
     padding-top: 8%;
     padding-bottom: 25%;
+    text-align: right;
    
 }
 .header-des{
@@ -23,7 +26,7 @@ body{
     font-size: 80px;
     font-weight: 700;
     text-align: right;
-    
+    margin-bottom: 30px;
 
 }
 .pra-title{
@@ -31,6 +34,7 @@ body{
     text-align: right;
     font-size: 25px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 .btn-primary{
     padding-right: 20px;
@@ -52,12 +56,9 @@ body{
     justify-content: space-evenly;
     margin: 150px 0px;
 }
-.banner-img{
-    background:
-}
+
 .banner-description{
     max-width: 500px;
-    
     
 }
 .banner-greeting{
@@ -82,6 +83,9 @@ body{
     font-weight: 700;
 }
 .skills-container{
+    width: 1140px;
+    height: 300px;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -95,7 +99,7 @@ body{
     row-gap: 10px;
     column-gap: 20px;
 }
-}
+
 .skills-img{
     text-align: center;
 }
@@ -114,6 +118,7 @@ body{
 .hands-img{
     width: 1140px;
     height: 300px;
+    margin: auto;
     max-width: 130px 230px;
     background-image:  url(/images/gradient1.png), url(/images/watch.png);
     padding-left: 300px;
@@ -135,4 +140,10 @@ body{
     padding: 14px 35px;
     border-radius: 7px;
     border: 0px;
+}
+.click-ber li{
+    list-style: none;
+}
+.click-ber li i{
+    color: green;
 }
