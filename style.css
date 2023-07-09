@@ -1,0 +1,138 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.bg{
+    height: 808px;
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-description{
+    padding-left: 55%;
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 25%;
+   
+}
+.header-des{
+    color: #151414;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: right;
+    
+
+}
+.pra-title{
+    color: var(--dark-02, #444343);
+    text-align: right;
+    font-size: 25px;
+    font-weight: 400;
+}
+.btn-primary{
+    padding-right: 20px;
+    text-align: right;
+    background-color: rgba(253, 110, 10);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 24px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+
+    
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 150px 0px;
+}
+.banner-img{
+    background:
+}
+.banner-description{
+    max-width: 500px;
+    
+    
+}
+.banner-greeting{
+    font-size: 65px;
+    color: #747474;
+    
+}
+.short-title{
+    font-size: 18px;
+    font-weight: 200;
+    font-style: none;
+    
+}
+.banner-img{
+    width: 500px;
+    display: block;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 700;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 18px;
+    
+}
+.skills{
+    padding: 25px;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+}
+}
+.skills-img{
+    text-align: center;
+}
+.skills-info{
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.skills-descri{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+.hands-img{
+    width: 1140px;
+    height: 300px;
+    max-width: 130px 230px;
+    background-image:  url(/images/gradient1.png), url(/images/watch.png);
+    padding-left: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10%;
+    padding-left: 15%;
+}
+.weach-info{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.call-me{
+    background-color:white ;
+    font-size: 18px;
+    color: #F15B22;
+    font-weight: 400;
+    padding: 14px 35px;
+    border-radius: 7px;
+    border: 0px;
+}
